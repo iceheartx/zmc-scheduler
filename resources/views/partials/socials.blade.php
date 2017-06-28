@@ -1,7 +1,7 @@
 
 <div class="row margin-bottom-10">
     <div class="col-md-6 col-sm-6 col-xs-6">
-        <a href="#" class="btn btn-lg waves-effect waves-light  btn-block facebook">Facebook</a>
+        <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-lg waves-effect waves-light  btn-block facebook">Facebook</a>
     </div>
     <div class="col-md-6 col-sm-6 col-xs-6">
         <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-lg waves-effect waves-light btn-block google">Google+</a>
